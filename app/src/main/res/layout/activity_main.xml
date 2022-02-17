@@ -17,4 +17,9 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:text="Lake Louise, AB, 캐나다" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
 </LinearLayout>
