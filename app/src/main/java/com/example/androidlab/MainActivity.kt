@@ -13,6 +13,7 @@ import androidx.core.content.ContextCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        /*
         //이름 문자열 출력
         val name=TextView(this).apply{
             typeface= Typeface.DEFAULT_BOLD
@@ -37,8 +38,9 @@ class MainActivity : AppCompatActivity() {
             //addView(image, WRAP_CONTENT, WRAP_CONTENT)
             addView(address, WRAP_CONTENT, WRAP_CONTENT)
         }
+        */
 
-        setContentView(layout)
+        setContentView(R.layout.activity_main)
 
     }
 }
